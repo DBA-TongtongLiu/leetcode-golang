@@ -43,7 +43,7 @@
 // Related Topics 数学 
 // 👍 2807 👎 0
 
-package test
+package cn
 
 import (
 	"math"

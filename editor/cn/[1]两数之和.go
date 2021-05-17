@@ -40,10 +40,18 @@
 // 
 // Related Topics 数组 哈希表 
 // 👍 11084 👎 0
-
+package cn
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func twoSum(nums []int, target int) []int {
-
+	for i, _ := range nums {
+		for j := i + 1; j < len(nums); j++ {
+			if nums[i]+nums[j] == target {
+				return []int{i, j}
+			}
+		}
+	}
+	return nil
 }
+
 //leetcode submit region end(Prohibit modification and deletion)
