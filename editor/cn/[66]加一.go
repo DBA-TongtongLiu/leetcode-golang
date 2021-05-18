@@ -40,9 +40,9 @@
 // Related Topics 数组 
 // 👍 687 👎 0
 
-
+package cn
 //leetcode submit region begin(Prohibit modification and deletion)
 func plusOne(digits []int) []int {
-
+	return nil
 }
 //leetcode submit region end(Prohibit modification and deletion)

@@ -73,10 +73,49 @@
 // 
 // Related Topics 数学 字符串 
 // 👍 1359 👎 0
+package cn
 
+import "strings"
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func romanToInt(s string) int {
+	array := strings.Split(s, "")
 
+	var num int
+	for _, v := range array {
+		switch v {
+		case "I":
+			num += 1
+		case "V":
+			num += 5
+		case "X":
+			num += 10
+		case "L":
+			num += 50
+		case "C":
+			num += 100
+		case "D":
+			num += 500
+		case "M":
+			num += 1000
+		default:
+			return 0
+		}
+	}
+	special := map[string]int{
+		"IV": 2,
+		"IX": 2,
+		"XL": 20,
+		"XC": 20,
+		"CD": 200,
+		"CM": 200,
+	}
+	for k, v := range special {
+		matchNum := strings.Count(s, k)
+		num -= matchNum * v
+	}
+
+	return num
 }
+
 //leetcode submit region end(Prohibit modification and deletion)
