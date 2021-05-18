@@ -41,8 +41,27 @@
 // 👍 687 👎 0
 
 package cn
+
 //leetcode submit region begin(Prohibit modification and deletion)
 func plusOne(digits []int) []int {
-	return nil
+	end := len(digits) - 1
+	var carry bool
+	for i, _ := range digits {
+		cur := end - i
+		if digits[cur] == 9 && (carry || i == 0) {
+			digits[cur] = 0
+			carry = true
+			continue
+		} else if carry || i==0 {
+			digits[cur] = digits[cur] + 1
+			carry = false
+			break
+		}
+	}
+	if carry {
+		return append([]int{1}, digits...)
+	}
+	return digits
 }
+
 //leetcode submit region end(Prohibit modification and deletion)
