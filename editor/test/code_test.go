@@ -10,8 +10,7 @@ import (
 	"testing"
 )
 
-func Test_twoSum(t *testing.T) {
-	nums := []int{-3,4,3,90}
-	target := 0
-	fmt.Println(twoSum(nums, target))
+func Test_strStr(t *testing.T) {
+	logs := [][]int{{1982, 1998}, {2013, 2042}, {2010, 2035}, {2022, 2050}, {2047, 2048}}
+	fmt.Println(maximumPopulation(logs))
 }
