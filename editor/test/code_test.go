@@ -11,6 +11,9 @@ import (
 )
 
 func Test_strStr(t *testing.T) {
-	fmt.Println(1^2)
-	fmt.Println(missingNumber([]int{3, 0, 1}))
+	fmt.Printf("%d", 12/7)
+}
+
+func Test_convertToBase7(t *testing.T) {
+	fmt.Println(convertToBase7(100))
 }
