@@ -6,31 +6,24 @@
 package leetcode
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func maximumPopulation(logs [][]int) int {
-	// 现在 2021 创建长度为 2021-1950+1 = 72 的数组
-	var pop [999]int
-	var sub int
-	for _, l := range logs {
-		sub = l[0] - 1950
-		pop[sub] = pop[sub] + 1
-		sub = l[1] - 1950
-		pop[sub] = pop[sub] - 1
-	}
+func missingNumber(nums []int) int {
 	var sum, max int
-	for i, v := range pop {
-		if i == 0 {
-			pop[i] = v
-			sum = v
-			max = v
-			sub = i
-		} else {
-			sum += v
-			pop[i] = sum
-			if sum > max {
-				max = sum
-				sub = i
-			}
+	for _, i := range nums {
+		sum += i
+		if i > max {
+			max = i
 		}
 	}
-	return 1950 + sub
+	sup := (max + 1) * max / 2
+	if sup != sum {
+		return sup - sum
+	}
+	length := len(nums)
+	if max == length {
+		return 0
+	} else {
+		return max + 1
+	}
+
+	return - sum
 }
