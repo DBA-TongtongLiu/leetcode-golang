@@ -15,5 +15,5 @@ func Test_strStr(t *testing.T) {
 }
 
 func Test_convertToBase7(t *testing.T) {
-	fmt.Println(findPoisonedDuration([]int{ 1, 2, 3}, 1))
+	fmt.Println(exchangeBits(571603718))
 }

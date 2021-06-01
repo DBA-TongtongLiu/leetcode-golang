@@ -355,6 +355,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[LCP 33]蓄水.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[LCP 33]蓄水.go" />
+              <option name="questionId" value="1000221" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[面试题 01.01]判定字符是否唯一.go">
           <value>
             <LeetcodeEditor>
@@ -379,11 +387,67 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[面试题 01.04]回文排列.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[面试题 01.04]回文排列.go" />
+              <option name="questionId" value="100184" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[面试题 04.04]检查平衡性.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[面试题 04.04]检查平衡性.go" />
+              <option name="questionId" value="100176" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[面试题 05.07]配对交换.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[面试题 05.07]配对交换.go" />
+              <option name="questionId" value="100182" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[面试题 08.03]魔术索引.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[面试题 08.03]魔术索引.go" />
+              <option name="questionId" value="100240" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[面试题 08.06]汉诺塔问题.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[面试题 08.06]汉诺塔问题.go" />
+              <option name="questionId" value="1000015" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[面试题 16.15]珠玑妙算.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[面试题 16.15]珠玑妙算.go" />
+              <option name="questionId" value="100355" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[面试题 17.04]消失的数字.go">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/editor/cn/[面试题 17.04]消失的数字.go" />
               <option name="questionId" value="1000032" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[面试题 17.16]按摩师.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[面试题 17.16]按摩师.go" />
+              <option name="questionId" value="1000023" />
             </LeetcodeEditor>
           </value>
         </entry>
