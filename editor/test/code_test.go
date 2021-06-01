@@ -15,6 +15,5 @@ func Test_strStr(t *testing.T) {
 }
 
 func Test_convertToBase7(t *testing.T) {
-	flower := []int{0, 0, 1, 0, 1}
-	fmt.Println(canPlaceFlowers(flower, 1))
+	fmt.Println(findPoisonedDuration([]int{ 1, 2, 3}, 1))
 }

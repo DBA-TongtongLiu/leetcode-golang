@@ -6,31 +6,15 @@
 package leetcode
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func canPlaceFlowers(flowerbed []int, n int) bool {
-	length := len(flowerbed)
-	for i, v := range flowerbed {
-		if v == 1 {
-			continue
+func findPoisonedDuration(timeSeries []int, duration int) int {
+	var continueTime, endTime int
+	for _, t := range timeSeries {
+		if t == 0 {
+		} else if endTime >= t {
+			continueTime -= endTime - t + 1
 		}
-
-		if i == 0 {
-			if i+1 < length && flowerbed[i+1] == 0 {
-				flowerbed[i] = 1
-				n--
-			}
-		} else if i == length-1 && flowerbed[i-1] == 0 {
-			flowerbed[i] = 1
-			n--
-		} else {
-			if flowerbed[i-1] == 0 && flowerbed[i+1] == 0 {
-				flowerbed[i] = 1
-				n--
-			}
-		}
-
+		endTime = t + duration - 1
+		continueTime += duration
 	}
-	if n > 0 {
-		return false
-	}
-	return true
+	return continueTime
 }

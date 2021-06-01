@@ -19,6 +19,22 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[175]组合两个表.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[175]组合两个表.go" />
+              <option name="questionId" value="175" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[176]第二高的薪水.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[176]第二高的薪水.go" />
+              <option name="questionId" value="176" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[1844]将所有数字用字符替换.go">
           <value>
             <LeetcodeEditor>
@@ -32,6 +48,38 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/editor/cn/[1854]人口最多的年份.go" />
               <option name="questionId" value="1983" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[191]位1的个数.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[191]位1的个数.go" />
+              <option name="questionId" value="191" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[193]有效电话号码.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[193]有效电话号码.go" />
+              <option name="questionId" value="193" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[195]第十行.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[195]第十行.go" />
+              <option name="questionId" value="195" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[196]删除重复的电子邮箱.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[196]删除重复的电子邮箱.go" />
+              <option name="questionId" value="196" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -64,6 +112,22 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/editor/cn/[21]合并两个有序链表.go" />
               <option name="questionId" value="21" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[263]丑数.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[263]丑数.go" />
+              <option name="questionId" value="263" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[266]回文排列.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[266]回文排列.go" />
+              <option name="questionId" value="266" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -107,6 +171,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[495]提莫攻击.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[495]提莫攻击.go" />
+              <option name="questionId" value="495" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[504]七进制数.go">
           <value>
             <LeetcodeEditor>
@@ -139,11 +211,35 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[575]分糖果.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[575]分糖果.go" />
+              <option name="questionId" value="575" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[58]最后一个单词的长度.go">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/editor/cn/[58]最后一个单词的长度.go" />
               <option name="questionId" value="58" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[595]大的国家.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[595]大的国家.go" />
+              <option name="questionId" value="595" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[603]连续空余座位.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[603]连续空余座位.go" />
+              <option name="questionId" value="603" />
             </LeetcodeEditor>
           </value>
         </entry>
