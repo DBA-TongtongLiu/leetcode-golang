@@ -11,22 +11,25 @@ type ListNode struct {
 }
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func isMonotonic(nums []int) bool {
-	if len(nums) <= 2 {
-		return true
+func isPalindrome(s string) bool {
+	var strNew string
+	for _, l := range []byte(s) {
+		if string(l) >= "A" && string(l) <= "Z" {
+			strNew += string(l+32)
+			continue
+		}
+		if string(l) >= "a" && string(l) <= "z" {
+			strNew += string(l)
+			continue
+		}
 	}
-	// flag == true 单调递增
-	// flag == false 单调递减
-	flag := nums[0] <= nums[1]
-
-	for i, _ := range nums {
-		if i == 1 || i == 0 {
-			continue
+	list := []byte(strNew)
+	length := len(list)
+	for i, l := range list {
+		if i > length/2 {
+			break
 		}
-		if nums[i] == nums[i-1]{
-			continue
-		}
-		if flag != (nums[i] > nums[i-1]) {
+		if l != list[length-1-i] {
 			return false
 		}
 	}

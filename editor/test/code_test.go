@@ -15,5 +15,5 @@ func Test_strStr(t *testing.T) {
 }
 
 func Test_convertToBase7(t *testing.T) {
-	fmt.Println(isMonotonic([]int{6, 5, 4, 4}))
+	fmt.Println(isPalindrome("OP"))
 }

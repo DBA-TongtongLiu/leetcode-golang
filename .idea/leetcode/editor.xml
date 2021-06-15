@@ -43,6 +43,30 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[122]买卖股票的最佳时机 II.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[122]买卖股票的最佳时机 II.go" />
+              <option name="questionId" value="122" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[125]验证回文串.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[125]验证回文串.go" />
+              <option name="questionId" value="125" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[136]只出现一次的数字.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[136]只出现一次的数字.go" />
+              <option name="questionId" value="136" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[139]单词拆分.go">
           <value>
             <LeetcodeEditor>
@@ -275,11 +299,27 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[461]汉明距离.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[461]汉明距离.go" />
+              <option name="questionId" value="461" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[495]提莫攻击.go">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/editor/cn/[495]提莫攻击.go" />
               <option name="questionId" value="495" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[500]键盘行.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[500]键盘行.go" />
+              <option name="questionId" value="500" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -304,6 +344,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/editor/cn/[507]完美数.go" />
               <option name="questionId" value="507" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[520]检测大写字母.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[520]检测大写字母.go" />
+              <option name="questionId" value="520" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -496,6 +544,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/editor/cn/[LCP 33]蓄水.go" />
               <option name="questionId" value="1000221" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[剑指 Offer 40]最小的k个数.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[剑指 Offer 40]最小的k个数.go" />
+              <option name="questionId" value="100301" />
             </LeetcodeEditor>
           </value>
         </entry>
