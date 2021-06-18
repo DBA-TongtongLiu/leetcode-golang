@@ -1,4 +1,5 @@
-//一个有名的按摩师会收到源源不断的预约请求，每个预约都可以选择接或不接。在每次预约服务之间要有休息时间，因此她不能接受相邻的预约。给定一个预约请求序列，替按摩
+//一个有名的按摩师会收到源源不断的预约请求，每个预约都可以选择接或不接。
+//在每次预约服务之间要有休息时间，因此她不能接受相邻的预约。给定一个预约请求序列，替按摩
 //师找到最优的预约集合（总预约时间最长），返回总的分钟数。 
 //
 // 注意：本题相对原题稍作改动 
@@ -28,9 +29,34 @@
 // Related Topics 动态规划 
 // 👍 199 👎 0
 
+package cn
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func massage(nums []int) int {
-
+	resList := []int{0}
+	max, val := 0, 0
+	for i, n := range nums {
+		if i == 0 || i == 1 {
+			val = n
+		} else {
+			val = getMax(resList[0:i]) + n
+		}
+		if val > max {
+			max = val
+		}
+		resList = append(resList, val)
+	}
+	return max
 }
+
+func getMax(nums []int) int {
+	max := 0
+	for _, n := range nums {
+		if n > max {
+			max = n
+		}
+	}
+	return max
+}
+
 //leetcode submit region end(Prohibit modification and deletion)

@@ -32,3 +32,10 @@
 
 
 //There is no code of Go type for this problem
+
+delete from Person where Id not in
+(select min(Id) as Id from Person group by Email having count(1) > 1
+
+union all
+
+select Id from Person group by Email having count(1) = 1)

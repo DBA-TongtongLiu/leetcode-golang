@@ -46,15 +46,16 @@ package cn
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func maxProfit(prices []int) int {
-	var profitSum , profitOnce, buyRate int
-
-	for i, _ := range prices{
-		for j := i + 1 ; j < len(prices); j++{
-
+	var profit int
+	for i, p := range prices {
+		if i == 0 {
+			continue
+		}
+		if p > prices[i-1] {
+			profit += p - prices[i-1]
 		}
 	}
-	return profitSum
-
+	return profit
 }
 
 //leetcode submit region end(Prohibit modification and deletion)
