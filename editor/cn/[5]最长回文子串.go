@@ -46,8 +46,15 @@ package cn
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func longestPalindrome(s string) string {
-	// 找出所有回文字符串，记第一个为最长，如果没超过，则抛弃
-	cluster
-	return ""
+	length := len(s)
+	var maxString string
+	for i , _ := range s {
+
+	}
+	return maxString
+}
+
+func safeCompare(i, j int)(){
+
 }
 //leetcode submit region end(Prohibit modification and deletion)

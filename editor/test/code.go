@@ -5,20 +5,32 @@
 
 package leetcode
 
+import "strings"
+
 //leetcode submit region begin(Prohibit modification and deletion)
-func majorityElement(nums []int) int {
-	length := len(nums)
-	m := make(map[int]int)
-	for _, n := range nums {
-		if v, ok := m[n]; ok {
-			m[n] = v + 1
-			if m[n] >length/2.0 {
-				return n
-			}
-		} else {
-			m[n] = 1
+func convert(s string, numRows int) string {
+	if numRows == 1 {
+		return s
+	}
+	var strList []*string
+	column, flag := 0, 1
+	for i := 0; i < numRows; i++ {
+		str := ""
+		strList = append(strList, &str)
+	}
+	for _, s := range strings.Split(s, "") {
+		*(strList[column]) += s
+		column += flag
+		if column+1 == numRows {
+			flag = -1
+		} else if column == 0 {
+			flag = 1
 		}
 
 	}
-	return -1
+	var str string
+	for _, s := range strList {
+		str += *s
+	}
+	return str
 }

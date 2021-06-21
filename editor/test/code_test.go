@@ -15,5 +15,5 @@ func Test_strStr(t *testing.T) {
 }
 
 func Test_convertToBase7(t *testing.T) {
-	fmt.Println(majorityElement([]int{3,2,3}))
+	fmt.Println(convert("AB", 1))
 }
